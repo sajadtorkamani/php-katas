@@ -1,0 +1,23 @@
+<?php
+
+function killMonsters(int $health, int $numMonsters, int $monsterDamage): string {
+  $numHits = 0;
+
+  while (true) {
+    $numMonsters -= 3;
+
+    if ($numMonsters > 0) {
+      $numHits += 1;
+      $health -= $monsterDamage;
+    }
+
+    if ($numMonsters <= 0) {
+      $totalDamage = $numHits * $monsterDamage;
+      return "hits: {$numHits}, damage: {$totalDamage}, health: {$health}";
+    }
+
+    if ($health <= 0) {
+      return 'hero died';
+    }
+  }
+}
