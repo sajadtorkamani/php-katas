@@ -1,6 +1,6 @@
 <?php
 
-function killMonsters(int $health, int $numMonsters, int $monsterDamage): string {
+function killMonsters(int $health, int $numMonsters, int $monsterHitDamage): string {
   $numHits = 0;
 
   while (true) {
@@ -8,11 +8,11 @@ function killMonsters(int $health, int $numMonsters, int $monsterDamage): string
 
     if ($numMonsters > 0) {
       $numHits += 1;
-      $health -= $monsterDamage;
+      $health -= $monsterHitDamage;
     }
 
     if ($numMonsters <= 0) {
-      $totalDamage = $numHits * $monsterDamage;
+      $totalDamage = $numHits * $monsterHitDamage;
       return "hits: {$numHits}, damage: {$totalDamage}, health: {$health}";
     }
 
