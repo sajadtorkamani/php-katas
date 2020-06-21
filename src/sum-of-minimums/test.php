@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 require_once 'solution.php';
 
-class SolutionTest extends TestCase
+class SumOnMinimumsTest extends TestCase
 {
     /**
      * @test

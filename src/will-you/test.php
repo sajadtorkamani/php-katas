@@ -4,7 +4,7 @@ require 'solution.php';
 
 use PHPUnit\Framework\TestCase;
 
-class SolutionTest extends TestCase
+class WillYouTest extends TestCase
 {
     /**
      * @test

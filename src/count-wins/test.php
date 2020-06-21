@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 require_once 'solution.php';
 
-class SolutionTest extends TestCase
+class CountWinsTest extends TestCase
 {
     private $winnersList = [
         ['season' => '1996–97', 'team' => 'Borussia Dortmund', 'country' => 'Germany'],

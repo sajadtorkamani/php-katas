@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 require 'solution.php';
 
-class SolutionTest extends TestCase
+class AccumTest extends TestCase
 {
   /**
    * @test
