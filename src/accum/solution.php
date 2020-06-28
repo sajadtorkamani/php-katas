@@ -1,8 +1,5 @@
 <?php
 
-/*
- * This code sucks but ah well!
- */
 function accum(string $str): string
 {
   $chars = str_split($str);
