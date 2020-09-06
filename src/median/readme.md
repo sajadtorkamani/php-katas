@@ -1,1 +1,0 @@
-https://www.codewars.com/kata/582609930626631a9600003e/train/php
