@@ -7,3 +7,4 @@ function calculate_total(float $subtotal, float $tax, float $tip): float
 
     return round($total, 2);
 }
+
