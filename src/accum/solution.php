@@ -12,3 +12,4 @@ function accum(string $str): string
 
   return join('-', $items);
 }
+
