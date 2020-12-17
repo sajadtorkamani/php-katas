@@ -14,3 +14,4 @@ function box(int $n): array
 
     return $result;
 }
+
