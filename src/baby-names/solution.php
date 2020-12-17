@@ -20,3 +20,4 @@ function valid_name(array $names): string {
 
     return 'Congratulations, your baby names are compatible!';
 }
+
