@@ -37,3 +37,4 @@ class DistinctDigitYearTest extends TestCase
         $this->assertTrue(isDistinctDigitYear(2013));
     }
 }
+
