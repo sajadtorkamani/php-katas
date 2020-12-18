@@ -18,3 +18,4 @@ function isDistinctDigitYear(int $year): bool
 
     return count($allDigits) === count($uniqueDigits);
 }
+
