@@ -8,3 +8,4 @@ function getMiddle(string $str): string
     ? substr($str, ($length / 2) - 1, 2)
     : substr($str, ($length - 1) / 2, 1);
 }
+
