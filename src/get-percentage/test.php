@@ -20,3 +20,4 @@ class GetPercentageTest extends TestCase
         $this->assertEquals("Daily limit is reached", getPercentage(1000, 1000));
     }
 }
+
