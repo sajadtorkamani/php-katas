@@ -12,3 +12,4 @@ function getPercentage(int $numSent, int $totalLimit = 1000): string
 
     return (int)(($numSent / $totalLimit) * 100) . '%';
 }
+
