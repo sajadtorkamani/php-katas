@@ -14,3 +14,4 @@ function heavyMetalUmlauts(string $boringText): string
 
     return str_replace($vowels, $umlauts, $boringText);
 }
+
