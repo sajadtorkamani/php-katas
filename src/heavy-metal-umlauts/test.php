@@ -17,3 +17,4 @@ class HeavyMetalUmlautsTest extends TestCase
         $this->assertEquals("Vëgän Bläck Mëtäl Chëf hïts thë bïg tïmë ön Ämäzön TV", heavyMetalUmlauts("Vegan Black Metal Chef hits the big time on Amazon TV"));
     }
 }
+
