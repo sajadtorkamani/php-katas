@@ -6,3 +6,4 @@ function html_end_tag_by_start_tag(string $start_tag): string
 
     return "</" . $matches[0] . ">";
 }
+
