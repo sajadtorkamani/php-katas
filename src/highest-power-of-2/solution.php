@@ -17,3 +17,4 @@ function isPowerOfTwo(int $num): bool
 {
     return ($num & ($num - 1)) == 0;
 }
+
