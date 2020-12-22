@@ -17,3 +17,4 @@ class HighestPowerOfTwoTest extends TestCase
         $this->assertEquals(1, solution(123));
     }
 }
+
