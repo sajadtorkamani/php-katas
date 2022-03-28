@@ -9,9 +9,8 @@
   "scripts": {
     "test": "phpunit"
   },
-  "require": {},
-  "require-dev": {
-    "phpunit/phpunit": "^8.2",
-    "symfony/var-dumper": "^5.1"
+  "require": {
+    "phpunit/phpunit": "^9.5",
+    "symfony/var-dumper": "^6.0"
   }
 }
